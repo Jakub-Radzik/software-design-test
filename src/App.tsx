@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Background />
       <header>
-        <div>Projektowanie Oprogramowania Testownik</div>
+        <div>Projektowanie Oprogramowania Testownik (soon)</div>
         <div className="stats">Pytań z odpowiedziami: {jsonData.length}</div>
       </header>
       <div className="version">
