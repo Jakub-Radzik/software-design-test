@@ -1,0 +1,40 @@
+.question-block {
+  background-color: rgba(0, 0, 0, 0.507);
+  color: white;
+  border-radius: 20px;
+  max-width: 612px;
+  margin: 30px 0;
+  padding: 10px;
+}
+
+.question-header {
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+.question-answers {
+  border-radius: 20px;
+}
+
+.question-answer {
+  padding: 20px;
+  border: 5px solid rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.question-answer:first-child {
+  border-radius: 20px 20px 0 0;
+}
+
+.question-answer:last-child {
+  border-radius: 0 0 20px 20px;
+}
+
+.answer-correct {
+  background-color: red;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
