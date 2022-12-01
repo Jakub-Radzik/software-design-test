@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/software-design-test/static/css/main.3b1f03e6.css",
-    "main.js": "/software-design-test/static/js/main.f1877c20.js",
+    "main.css": "/software-design-test/static/css/main.c1476c07.css",
+    "main.js": "/software-design-test/static/js/main.3d1138bb.js",
     "static/js/787.fa84c41f.chunk.js": "/software-design-test/static/js/787.fa84c41f.chunk.js",
     "static/media/github.png": "/software-design-test/static/media/github.118f178596bc54ab073a.png",
     "index.html": "/software-design-test/index.html",
-    "main.3b1f03e6.css.map": "/software-design-test/static/css/main.3b1f03e6.css.map",
-    "main.f1877c20.js.map": "/software-design-test/static/js/main.f1877c20.js.map",
+    "main.c1476c07.css.map": "/software-design-test/static/css/main.c1476c07.css.map",
+    "main.3d1138bb.js.map": "/software-design-test/static/js/main.3d1138bb.js.map",
     "787.fa84c41f.chunk.js.map": "/software-design-test/static/js/787.fa84c41f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b1f03e6.css",
-    "static/js/main.f1877c20.js"
+    "static/css/main.c1476c07.css",
+    "static/js/main.3d1138bb.js"
   ]
 }
