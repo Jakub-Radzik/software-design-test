@@ -2,12 +2,12 @@ import { useState } from "react";
 import "./App.css";
 import { Background } from "./components/background";
 import { Question } from "./components/question";
-import data from "./sieci.json";
+import data from "./result.json";
 import { QuestionType } from "./types/Question";
 import github from "./github.png";
 
 function App() {
-  const [jsonData, setJsonData] = useState(data as QuestionType[]);
+  const [jsonData, ] = useState(data as QuestionType[]);
   const [phrase, setPhrase] = useState<string>("");
 
   const filterCondition = (question: string) => {
@@ -18,11 +18,11 @@ function App() {
     <div className="App">
       <Background />
       <header>
-        <div>Projektowanie Oprogramowania Testownik (soon)</div>
+        <div>Projektowanie Oprogramowania Testownik</div>
         <div className="stats">Pytań z odpowiedziami: {jsonData.length}</div>
       </header>
       <div className="version">
-        0.1.0 <br /> GLHF
+        1.0.0 <br /> GLHF
       </div>
       <a href="https://github.com/Jakub-Radzik">
         <img src={github} alt="github logo" className="gh" />
@@ -42,6 +42,7 @@ function App() {
             return (
               <Question
                 key={question.id}
+                pattern={question.pattern}
                 id={question.id}
                 question={question.question}
                 answers={question.answers}

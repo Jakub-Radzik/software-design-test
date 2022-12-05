@@ -1,10 +1,10 @@
 import { QuestionType } from "../types/Question";
 import "./question.css";
 
-export const Question = ({ id, question, answers, img }: QuestionType) => {
+export const Question = ({ id, question, answers, img, pattern }: QuestionType) => {
   return (
     <div className="question-block">
-      <div className="question-header">{question}</div>
+      <div className="question-header">{`${pattern} - ${question}`}</div>
       {img && <img src={`images/${img}`} alt="alternative" />}
       <div className="question-answers">
         {answers.map(answer => {
