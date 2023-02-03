@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/software-design-test/static/css/main.e14cac03.css",
-    "main.js": "/software-design-test/static/js/main.5ea4eb21.js",
+    "main.css": "/software-design-test/static/css/main.e877e133.css",
+    "main.js": "/software-design-test/static/js/main.8a596682.js",
     "static/js/787.fa84c41f.chunk.js": "/software-design-test/static/js/787.fa84c41f.chunk.js",
     "static/media/github.png": "/software-design-test/static/media/github.118f178596bc54ab073a.png",
     "index.html": "/software-design-test/index.html",
-    "main.e14cac03.css.map": "/software-design-test/static/css/main.e14cac03.css.map",
-    "main.5ea4eb21.js.map": "/software-design-test/static/js/main.5ea4eb21.js.map",
+    "main.e877e133.css.map": "/software-design-test/static/css/main.e877e133.css.map",
+    "main.8a596682.js.map": "/software-design-test/static/js/main.8a596682.js.map",
     "787.fa84c41f.chunk.js.map": "/software-design-test/static/js/787.fa84c41f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e14cac03.css",
-    "static/js/main.5ea4eb21.js"
+    "static/css/main.e877e133.css",
+    "static/js/main.8a596682.js"
   ]
 }
