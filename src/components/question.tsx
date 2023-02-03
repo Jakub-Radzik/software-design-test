@@ -9,7 +9,7 @@ export const Question = ({ id, question, answers, img, pattern }: QuestionType) 
   const [show, setShow] = useState(false)
   return (
     <div className="question-block" onClick={() => setShow(!show)}>
-      <div className="question-header">{`${pattern} - ${question}`}</div>
+      <div className="question-header">{question}</div>
       {img && <img src={`images/${img}`} alt="alternative" />}
       <div className="question-answers">
         {answers.map(answer => {
