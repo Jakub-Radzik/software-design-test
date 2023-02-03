@@ -14,6 +14,11 @@ function App() {
     return question.toLowerCase().includes(phrase.toLowerCase());
   };
 
+  const showAll = () => {
+    localStorage.clear();
+    window.location.reload()
+  }
+
   return (
     <div className="App">
       <Background />
@@ -28,6 +33,7 @@ function App() {
         <img src={github} alt="github logo" className="gh" />
       </a>
       <div>
+        <button onClick={showAll}>Show all</button>
         <input
           type="text"
           placeholder="Filter by question content..."
