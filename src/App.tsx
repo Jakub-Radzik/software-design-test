@@ -22,7 +22,7 @@ function App() {
         <div className="stats">Pytań z odpowiedziami: {jsonData.length}</div>
       </header>
       <div className="version">
-        1.0.0 <br /> GLHF
+        1.2.0 <br /> GLHF
       </div>
       <a href="https://github.com/Jakub-Radzik">
         <img src={github} alt="github logo" className="gh" />
